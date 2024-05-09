@@ -1,0 +1,195 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mobile-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    height: 60px;
+}
+
+#phone-number-mobile-display {
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+
+
+#dropdown-items {
+    display: none;
+    width: 100vw;
+    background-color: rgb(29, 29, 29); 
+    color: white;
+}
+
+
+.navitems-dropdown {
+    font-family: Poppins;
+    font-weight: bold;
+    list-style: none;
+    padding: 10px;
+    margin-left: -30px;
+}
+
+
+.links {
+    color: inherit;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #fac40b;
+}
+
+
+#phone-number {
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#phone-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#call-today {
+    font-size: .8em;
+}
+
+#home {
+    color: #fac40b;
+    display: flex;
+}
+
+#home-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+#phone-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+#hamburger-icon, #cross-icon {
+    position: absolute;
+    left: 85%;
+    width: 40px;
+    height: 40px;
+    bottom: 96%;    
+}
+
+#cross-icon {
+    display: none;
+}
+
+#plus-icon, #minus-icon {
+    width: 24px;
+    height: 24px;
+}
+
+#minus-icon {
+    display: none;    
+}
+
+#mobile-services-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+#mobile-os-dropdown {
+    display: none;
+    flex-direction: column;
+    margin-left: -40px;
+    font-family: Poppins;
+    width: 100vw;
+    background-color: #E6E6E6;
+    color: rgb(29, 29, 29);
+}
+
+.mobile-dropdown-titles {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #f0f2f5;
+}
+
+
+.mobile-dropdown-titles > a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: 50px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.mobile-dropdown-titles > a:hover {
+    text-decoration: underline;
+}
+
+
+.mobile-dropdown-items {
+    
+    margin-left: 10px;
+    font-size: .9.5em;
+}
+
+.mobile-dropdown-items > ul {
+    list-style-type: none;
+}
+
+.mobile-dropdown-items > ul > li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.mobile-dropdown-items > ul >li::before {
+    content: "-";
+    margin-right: 3px;
+}
+
+.mobile-dropdown-items > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile-dropdown-items > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
