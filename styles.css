@@ -83,11 +83,10 @@ body, html {
 }
 
 #hamburger-icon, #cross-icon {
-    position: absolute;
-    left: 85%;
     width: 40px;
     height: 40px;
-    bottom: 96%;    
+    margin-left: 300px;
+     
 }
 
 #cross-icon {
